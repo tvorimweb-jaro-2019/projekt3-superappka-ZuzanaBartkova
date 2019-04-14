@@ -31,3 +31,134 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.stlpec {
+    position: relative;
+}
+
+header, .subheader {
+    padding-left: 20px;
+}
+
+.hlavicka li {
+    display: inline-block;
+    text-align: left;
+    margin: 20px;
+}
+
+.vybrana {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.subheader {
+    position: relative;
+    background-image: url(images/pozadi.jpg);
+    height: 470px;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 40px;
+    font-size: 75px;
+    font-weight: 400;
+    left: 40px;
+    margin: 0;
+    
+}
+
+.telefon img {
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.slogan {
+    font-size: 40px;
+    font-weight: 300;
+    position: absolute;
+    top: 220px;
+    line-height: 35px;
+    left: 40px;
+}
+
+.tlacitka {
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tlacitka a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border-collapse: separate; 
+    box-shadow: 3px 3px 20px #25133d;
+}
+
+.stahnout {
+    margin-right: 25px;
+    background-color: #48418e;
+}
+
+.imgkontajter {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.kontajner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.prvy {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.druhy {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.treti {
+    flex: 0 1 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top {
+    margin: 15px 20px 20px 20px;
+    font-weight: 700;
+    color: #48418e;
+}
+
+.paticka {
+    display: flex;
+    border: 1px solid #48418e;
+    color: white;
+    background-color: #48418e;
+    height: 35px; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
